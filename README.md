@@ -6,7 +6,8 @@ CLI for backing up remote PostgreSQL databases locally or to AWS S3.
 REQUIREMENTS
 ========
 Python3
-required libraries as installed from 'requirement.txt': pip install --user -r requirements.txt
+required libraries as installed from 'requirement.txt':  
+    pip install --user -r requirements.txt  
 aws cli
 
 USAGE
