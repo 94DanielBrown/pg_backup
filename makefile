@@ -1,7 +1,9 @@
-default: test install
+.PHONY: install test
+
+default: test
 
 install:
-	pip3 install -r requirements.txt
+	pipenv install --dev --skip-lock
 
 test:
 	PYTHONPATH=./src pytest

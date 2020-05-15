@@ -1,7 +1,7 @@
 import pytest
 from pgbackup import cli
 
-url = "postgres://postgres:dockerd@localhost:5432/movies"
+url = "postgres://postgres:docker@localhost:5432/movies"
 
 
 @pytest.fixture
